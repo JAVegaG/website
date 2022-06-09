@@ -333,6 +333,85 @@
         }
 
     }
-
     
+}
+
+/* Services Section CSS */
+
+.services{
+    background-color: #d3d1d1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.services h1{
+    background-color: #4c30c9;
+    background-image: linear-gradient(to right,
+     #003cff 0%,
+     #1900ff 20%,
+     #6200ff 40%,
+     #9900ff 60%,
+     #e100ff 80%,
+     #c300ff 100%);
+    background-size: 100%;
+    margin-bottom: 80px;
+    font-size: 40px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.services_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services_card{
+    margin: 16px;
+    height: 525px;
+    width: 400px;
+    border-radius: 5px;
+    background-image: -o-linear-gradient(to bottom,
+    rgba(0,0,0,0) 0%,
+    rgba(17,17,17,0.6) 100%,
+    url('/images/virtual_reality_boy.jpg'));
+    background-size: cover;
+    position: relative;
+    color: #4c30c9;
+}
+
+.services_card:nth-child(2){
+    background-image: -o-linear-gradient(to bottom,
+    rgba(0,0,0,0) 0%,
+    rgba(17,17,17,0.6) 100%,
+    url('/images/virtual_reality_girl.jpg'));
+}
+
+.services h2{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
+
+.services_card p{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+.services_card button{
+    color: #9c0fd4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #6200ff;
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    font-size: 16px;
+    cursor: pointer;
 }
