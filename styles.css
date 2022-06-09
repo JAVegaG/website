@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    font-family: sans-serif;
+    font-family: 'Kumbh Sans',sans-serif;
 }
 .navbar {
     background-color: #c7c7c7;
@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     font-size: 18px;
+    position: sticky;
     top: 0;
     z-index: 999;
 }
@@ -136,7 +137,7 @@
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background-color: #c7c7c7;
+        background-color: #4c30c9;
     }
     .navbar_item{
         width: 100%;
